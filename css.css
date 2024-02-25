@@ -1,0 +1,173 @@
+/*
+	I really like Google's Open Sans font, it's just nice.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	padding:0;
+	margin:0;
+	font-size:100%;
+	font-family:"Open Sans";
+	border-style:none;
+}
+.NoStyleList{
+	list-style-type:none;
+}
+li{
+	padding-bottom:2%;
+	display:list-item;
+	text-align:left;
+	justify-content:left;
+}
+body{
+	background-color:rgba(11,22,29,1);
+	height:100%;
+}
+p{
+	text-align:center;
+	padding-left:3%;
+	padding-right:3%;
+}
+.JustifyLeft{
+	justify-content:left;
+	align-items:start;
+}
+.FlexContainer{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:100vh;
+	float:left;
+	overflow-y:scroll;
+}
+.FlexColumn{
+	display:flex;
+	flex-direction:column;
+	justify-items:left;
+}
+.FlexItem{
+	display:flex;
+	margin:1%;
+	float:left;
+}
+.IconImg{
+	max-width:88%;
+	max-height:88%;
+}
+#sideBar{
+	width:18%;
+	max-width:300px;
+	background-color:rgba(14,29,38,1);
+	color:rgba(224,215,197,1);
+	overflow-y:hidden;
+}
+#mainField{
+	width:72%;
+	color:rgba(224,215,197,1);
+	padding-left:5%;
+	padding-right:5%;
+}
+#mainContainer{
+	flex-direction:row;
+	min-width:100vw;
+}
+.FlexImg{
+	max-width:100%;
+	max-height:100%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+.FlexNav{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+}
+.FlexNav a{
+	padding-bottom:7%;
+	display:flex;
+	flex-direction:column;
+}
+.FlexHeader{
+	min-height:15%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+}
+table{
+	border-collapse:collapse;
+	border:1px solid #FF0000;
+}
+th{
+	border:1px solid #FF0000;
+}
+td{
+	padding-top:3%;
+	padding-bottom:3%;
+	padding-right:3%;
+	padding-left:3%;
+	border:1px solid #FF0000;
+}
+.FlexButtons{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	float:left;
+	justify-content:center;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.FlexButtons form{
+	width:100%;
+}
+.FlexButtons form button{
+	background:rgba(23,46,61,1);
+	border-radius:15px;
+	color:rgba(224,215,197,1);
+	outline:0;
+	width:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:2%;
+	padding-right:2%;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:0%;
+	margin-right:0%;
+
+}
+.FlexButtons form button:hover{
+	background:rgba(38,75,99,1);
+	text-shadow:-5px 5px rgba(0,0,0,0.9);
+}
+#Welcome{
+	text-shadow:5px 5px rgba(224,215,197,0.5)
+}
+.FlexVideo{
+	max-width:75%;
+	max-height:75%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+@media screen and (max-width:800px){
+	#sideBar{
+		width:35%;
+		background-color:rgba(14,29,38,1);
+		color:rgba(224,215,197,1);
+	}
+	#mainField{
+		width:61%;
+		color:rgba(224,215,197,1);
+		padding-left:2%;
+		padding-right:2%;
+	}
+}
+@media print{
+	#sideBar{
+		display:none;
+	}
+	#mainField{
+		width:100%;
+	}
+}
+	
