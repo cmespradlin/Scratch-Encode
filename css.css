@@ -21,6 +21,7 @@ li{
 body{
 	background-color:rgba(11,22,29,1);
 	height:100%;
+	overflow-y:hidden;
 }
 p{
 	text-align:center;
