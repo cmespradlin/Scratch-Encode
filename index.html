@@ -22,16 +22,15 @@
 					</div>
 					<div class="FlexItem">
 						<p>
-							To begin converting your video file, drag and drop below:
+							Your device and browser must support JavaScript. The page may stop responding while your video is processed, so please wait for it instead of closing the tab. There are no limits on file size other than your browser's per-tab memory limits. If the video is too big, this tab will crash with an out-of-memory error. To begin converting your video file, drag and drop below:
 						</p>
 					</div>
-					<div class="FlexItem">
-						
+					<div class="FlexDragNDrop" id="videoDrop">
+							Drag files here
 					</div>
+					
 					<div class="FlexItem">
-						<p>
-							
-						</p>
+						<canvas id="drawTarget" width="120px" height="90px"></canvas>
 					</div>
 					<a href="#top">Back to top</a>
 					<footer class="FlexItem">
@@ -40,4 +39,5 @@
 				</div>
 			</div>
 		</body>
+		<script src="./src/encode.js"></script>
 	</html>	

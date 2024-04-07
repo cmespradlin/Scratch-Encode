@@ -19,7 +19,7 @@ li{
 	justify-content:left;
 }
 html{
-	overflow-y:hidden;
+	
 }
 body{
 	background-color:rgba(11,22,29,1);
@@ -40,7 +40,6 @@ p{
 	align-items:center;
 	height:100vh;
 	float:left;
-	overflow-y:scroll;
 }
 .FlexColumn{
 	display:flex;
@@ -110,6 +109,10 @@ td{
 	padding-right:3%;
 	padding-left:3%;
 	border:1px solid #FF0000;
+}
+.FlexDragNDrop{
+	padding: 10%;
+	background:rgb(15, 29, 39);
 }
 .FlexButtons{
 	display:flex;
