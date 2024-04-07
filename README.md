@@ -1,2 +1,2 @@
-# Scratch-Encode
-Github pages site to convert and compress video files to render in Scratch.
+# cmespradlin's pages
+Github pages site for my various projects
